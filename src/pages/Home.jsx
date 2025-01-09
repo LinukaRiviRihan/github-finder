@@ -1,5 +1,12 @@
-function NotFound() {
-  return <div>Home</div>;
+import UserResults from '../components/users/userResults';
+
+function Home() {
+  return (
+    <>
+      {/* SEARCH COMPONENT */}
+      <UserResults />
+    </>
+  );
 }
 
-export default NotFound;
+export default Home;

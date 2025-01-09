@@ -1,4 +1,4 @@
-function NotFound() {
+function About() {
   return (
     <div>
       <h1 className="text-2xl mb-4">Github Finder</h1>
@@ -19,4 +19,4 @@ function NotFound() {
   );
 }
 
-export default NotFound;
+export default About;
