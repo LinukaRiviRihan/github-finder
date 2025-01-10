@@ -6,7 +6,7 @@ function Alert() {
 
   return (
     alert !== null && (
-      <p className="flex items-start mb-4 space-x-1">
+      <div className="flex items-start mb-4 ml-20 space-x-1">
         {alert.type === 'error' && (
           <svg
             fill="none"
@@ -24,7 +24,7 @@ function Alert() {
         <p className="flex-1 text-base font-semibold text-white">
           <strong>{alert.msg}</strong>
         </p>
-      </p>
+      </div>
     )
   );
 }
